@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head><title>Tech Parts</title>
+    <meta name='description' content='ITS Clubs and Societies where you can browse
+    the various clubs and register your own'>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Js/script.js"></script>
+	</head>
+	<body>
+             
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+           <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href = "index.html">Tech Parts<i class="fas fa-tools"></i></a>
+                </div>          
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active"><a class ="nav-link" href="index.html">Home</a></li>
+                    <li class = "nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class ="nav-item"><a class = "nav-link" href="shop.html">Shop</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    <div class="nav navbar-nav navbar-right navbar-form">
+        <div class="btn-group">
+             <a href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2" href="checkout.html">
+          <span class="glyphicon glyphicon-shopping-cart"></span>Checkout <span class="badge badge-dark" id="checkout"></span>
+        </button>
+            </a>  
+            <a href="login.html"><button type="button" class="btn btn-primary"  id="loginlogout" href="login.html">Login<span class="glyphicon glyphicon-user"></span></button></a>
+            <a href="register.html"><button type="button" class="btn btn-primary"  id="register" href="register.html">Register<span class="glyphicon glyphicon-check"></span></button></a>
+            
+    </div>
+                        
+    </div>
+
+            </div>
+           </div>
+    </nav> 
+        
+        
+        <div class="container">
+            <div class="page-header">
+            <p id="logoheader">Tech Parts<i class="fas fa-tools"></i></p>
+            </div>
+            <center><h1>Shop<span class="glyphicon glyphicon-shopping-cart"></span></h1></center>
+  <div class="row">
+   <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\case.png" target="_blank">
+          <img src="Images\case.png" alt="Case" id="techPics">
+             </a>
+          <div class="caption">
+            <p id ="itemHeading">Corsair Carbide 275R Case</p>
+              <p>Corsair case with 2 case fans and clear glass panel</p>
+              <p>*Available in white only*</p>
+              <p>Price: <span class="price">&euro;80</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\graphics.jpg" target="_blank">
+          <img src="Images\graphics.jpg" alt="Graphics Card" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">Nvidia 3090 Graphics Card</p>
+              <p>Latest in the Nvidia range can handle any game</p>
+              <p>ensuring top performance at all times</p>
+              <p>Price: <span class="price">&euro;800</span></p>
+          </div>
+          <button type="button" class="btn btn-danger" disabled>Out of stock</button>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\motherboard.jpg" target="_blank">
+          <img src="Images\motherboard.jpg" alt="Motherboard" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">ASUS ROG Motherboard</p>
+              <p>The ASUS ROG enables up to 4 sticks of RAM</p>
+              <p>Its high performance fits any build</p>
+              <p>Price: <span class="price">&euro;110</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\powersupply.jpg" target="_blank">
+          <img src="Images\powersupply.jpg" alt="Power Supply" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">Corsair 650W Power Supply</p>
+              <p>650w of power to your build is enough to keep your</p>
+              <p>vital parts running as they should be</p>
+              <p>Price: <span class="price">&euro;50</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\monitor.jpg" target="_blank">
+          <img src="Images\monitor.jpg" alt="Monitor" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">HP 27 inch Monitor</p>
+              <p>Along with the support of 2 hdmi slots</p>
+              <p>This runs a 75hz refresh rate display</p>
+              <p>Price: <span class="price">&euro;150</span></p>
+          </div>
+          <button type="button" class="btn btn-danger" disabled>Out of stock</button>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\cpu.jpg" target="_blank">
+          <img src="Images\cpu.jpg" alt="CPU" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">I7 Intel CPU</p>
+              <p>The 7th generation in its series handles well</p>
+              <p>in running multiple processes ensuring no delay</p>
+              <p>Price: <span class="price">&euro;300</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+        <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\ram.jpg" target="_blank">
+          <img src="Images\ram.jpg" alt="RAM" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">2 x 8gb Corsair RAM</p>
+              <p>16Gb of memory which includes an option to overclock </p>
+              <p>Heat sinks also provide better heat dissipation</p>
+              <p>Price: <span class="price">&euro;70</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+        <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\keyboardmouse.jpg" target="_blank">
+          <img src="Images\keyboardmouse.jpg" alt="Keyboard Mouse" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">Logitech Keyboard &amp; Mouse</p>
+              <p>Keyboard and mouse set both which come as wireless</p>
+              <p>Suitable for all types of computers</p>
+              <p>Price: <span class="price">&euro;30</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+        <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="Images\pcfan.jpg" target="_blank">
+          <img src="Images\pcfan.jpg" alt="Fan" id="techPics">
+          </a>
+          <div class="caption">
+            <p id ="itemHeading">NZXT RGB Fan</p>
+              <p>Various options of changing colours using the remote</p>
+              <p>provided ensuring a nice colour change for your build</p>
+              <p>Price: <span class="price">&euro;20</span></p>
+          </div>
+          <button type="button" class="btn btn-primary addtocart">Add to basket</button>
+      </div>
+    </div>
+     
+    </div>
+        </div>
+    <center>
+    <div id="share-buttons">
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    
+    </a>
+     <a href="https://twitter.com/share?url=https://simplesharebuttons.com" target="_blank">
+
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+
+    </a>
+    
+    <a href="javascript:;" onclick="window.print()">
+
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+
+    </a>
+  </div>   
+    <footer>&copy;2020 Tech Parts<i class="fas fa-tools"></i>
+        <p>Designed and Developed by <a href="mailto:s00199690@mail.itsligo.ie">Ryan McDonald</a>
+        </footer>
+    </center>
+	</body>
+</html>

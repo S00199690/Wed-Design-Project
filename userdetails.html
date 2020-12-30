@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Tech Parts</title>
+  <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <script src="Js/script.js"></script>
+</head>
+<body>
+<div class="container">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+           <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href = "index.html">Tech Parts<i class="fas fa-tools"></i></a>
+                </div>          
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active"><a class ="nav-link" href="index.html">Home</a></li>
+                    <li class = "nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class ="nav-item"><a class = "nav-link" href="shop.html">Shop</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    <div class="nav navbar-nav navbar-right navbar-form">
+        <div class="btn-group">
+             <a href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2" href="checkout.html">
+          <span class="glyphicon glyphicon-shopping-cart"></span>Checkout <span class="badge badge-dark" id="checkout"></span>
+        </button>
+            </a>  
+            <a href="login.html"><button type="button" class="btn btn-primary"  id="loginlogout" href="login.html">Login<span class="glyphicon glyphicon-user"></span></button></a>
+            <a href="register.html"><button type="button" class="btn btn-primary"  id="register" href="register.html">Register<span class="glyphicon glyphicon-check"></span></button></a>
+            
+    </div>
+                        
+    </div>
+
+            </div>
+           </div>
+    </nav>      
+    <div class="page-header">
+            <p id="logoheader">Tech Parts<i class="fas fa-tools"></i></p>
+            </div>
+    <h1>User Details</h1>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <form name="userdetails" id="udetails" action="" method="get">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getFirstName">First name</label>
+                        <input type="text" class="form-control" id="getFirstName" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getLastName">Last name</label> 
+                        <input type="text" class="form-control" id="getLastName" name="lastname" required>
+                    </div>    
+                    <div class="form-group">
+                        <label for="getDOB">Date of Birth</label> 
+                        <input type="date" class="form-control" id="getDOB" name="dob" required>
+                    </div>  
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getAddress1">Address 1</label> 
+                        <input type="text" class="form-control" id="getAddress1" name="address1" required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="getAddress2">Address 2</label> 
+                        <input type="text" class="form-control" id="getAddress2" name="address2" required>
+                    </div>  
+                    <div class="form-group">
+                        <label for="getAddress3">Address 3</label> 
+                        <input type="text" class="form-control" id="getAddress3" name="address2" required>
+                    </div>  
+                </fieldset>    
+                <input type='submit' class="btn btn-primary" value="Update My Details">
+            </form>
+
+
+        </div> 
+    </div>   
+    
+
+    </div>
+        <center>
+    <div id="share-buttons">
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    
+    </a>
+     <a href="https://twitter.com/share?url=https://simplesharebuttons.com" target="_blank">
+
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+
+    </a>
+    
+    <a href="javascript:;" onclick="window.print()">
+
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+
+    </a>
+  </div>
+        
+    <footer>&copy;2020 Tech Parts<i class="fas fa-tools"></i>
+        <p>Designed and Developed by <a href="mailto:s00199690@mail.itsligo.ie">Ryan McDonald</a>
+        </footer>
+    </center>
+
+</body>
+</html>
+
+
+
